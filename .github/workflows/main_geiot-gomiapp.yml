@@ -3,6 +3,10 @@
 
 name: Build and deploy Node.js app to Azure Web App - geiot-gomiapp
 
+defaults:
+  run:
+    working-directory: myExpressApp
+
 on:
   push:
     branches:
